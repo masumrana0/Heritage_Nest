@@ -55,7 +55,7 @@ const PropertyPage = () => {
             Select How much Home loan you can take
           </h2>
         </div>
- 
+
         <div className="h-2 w-full flex bg-blue-300 rounded-full">
           <span className="h-3 w-3 bg-slate-500 rounded-full p-2 "></span>
           <div className="flex justify-evenly gap-4 items-center w-full px-1 first-child:bg-blue-500 ">
@@ -66,6 +66,7 @@ const PropertyPage = () => {
             ))}
           </div>
         </div>
+        
       </div>
 
       {/* TestMonial */}

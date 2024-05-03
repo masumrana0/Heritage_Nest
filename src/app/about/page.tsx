@@ -1,7 +1,6 @@
 import React from "react";
 import banner from "/public/assests/about/about-banner.png";
 import Image from "next/image";
-import { MdOutlineDownloadForOffline } from "react-icons/md";
 import dremhome from "/public/assests/about/hand-home.png";
 import handShake from "/public/assests/about/handShake.png";
 import banner1 from "/public/assests/about/img.png";
@@ -9,6 +8,7 @@ import people1 from "/public/assests/about/people-1.png";
 import people2 from "/public/assests/about/people-2.png";
 import people3 from "/public/assests/about/people-3.png";
 import TestimonialsSection from "@/components/ui/TestmunialSwiper";
+import Details from "@/components/ui/Details";
 
 const AboutPage = () => {
   return (
@@ -25,65 +25,8 @@ const AboutPage = () => {
 
       <div className="container mx-auto my-20 flex flex-col gap-10">
         {/* section 1 */}
-        <section className="flex gap-10 items-center">
-          <div className="w-[20rem] h-[13rem] border bg-orange-100 p-5 flex flex-col justify-between ">
-            <div>
-              <h3 className="font-bold text-orange-500 text-3xl">2K+</h3>
-              <p className="font-semibold text-xl">New Flat Listed</p>
-            </div>
-            <div className="flex justify-between items-center">
-              <a href="/about" className="text-orange-400 underline text-lg">
-                View all
-              </a>
-              <span className="text-4xl text-orange-400">
-                <MdOutlineDownloadForOffline />
-              </span>
-            </div>
-          </div>
-
-          <div className="w-[20rem] h-[13rem] border bg-blue-100 p-5 flex flex-col justify-between ">
-            <div>
-              <h3 className="font-bold text-blue-500 text-3xl">2K+</h3>
-              <p className="font-semibold text-xl">New Flat Listed</p>
-            </div>
-            <div className="flex justify-between items-center">
-              <a href="/about" className="text-blue-400 underline text-lg">
-                View all
-              </a>
-              <span className="text-4xl text-blue-400">
-                <MdOutlineDownloadForOffline />
-              </span>
-            </div>
-          </div>
-          <div className="w-[20rem] h-[13rem] border bg-orange-100 p-5 flex flex-col justify-between ">
-            <div>
-              <h3 className="font-bold text-orange-500 text-3xl">2K+</h3>
-              <p className="font-semibold text-xl">New Flat Listed</p>
-            </div>
-            <div className="flex justify-between items-center">
-              <a href="/about" className="text-orange-400 underline text-lg">
-                View all
-              </a>
-              <span className="text-4xl text-orange-400">
-                <MdOutlineDownloadForOffline />
-              </span>
-            </div>
-          </div>
-
-          <div className="w-[20rem] h-[13rem] border bg-blue-100 p-5 flex flex-col justify-between ">
-            <div>
-              <h3 className="font-bold text-blue-500 text-3xl">2K+</h3>
-              <p className="font-semibold text-xl">New Flat Listed</p>
-            </div>
-            <div className="flex justify-between items-center">
-              <a href="/about" className="text-blue-400 underline text-lg">
-                View all
-              </a>
-              <span className="text-4xl text-blue-400">
-                <MdOutlineDownloadForOffline />
-              </span>
-            </div>
-          </div>
+        <section>
+          <Details />
         </section>
 
         {/* section 2 */}

@@ -11,7 +11,6 @@ import banner4 from "/public/assests/propertyDetail/Frame 138.png";
 // icons
 import { FaBed, FaBath, FaBuilding, FaBatteryHalf } from "react-icons/fa";
 import { MdBalcony } from "react-icons/md";
-import { CgGym } from "react-icons/cg";
 import ProjectSwiper from "@/components/ui/ProjectSwiper";
 import Link from "next/link";
 import OtherService from "@/components/ui/OtherService";
