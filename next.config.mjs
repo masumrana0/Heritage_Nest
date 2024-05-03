@@ -6,6 +6,7 @@ const nextConfig = {
       "avatars.githubusercontent.com",
       "www.gravatar.com",
       "i.ibb.co",
+      "img.freepik.com",
     ],
   },
   webpack: (config, { isServer }) => {
