@@ -18,7 +18,7 @@ const Propertycard = () => {
             {" "}
             3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi
           </h3>
-          <span className="flex item-center gap-1 text-sm font-thin text-gray-800 ">
+          <span className="flex item-center gap-1 text-lg text-gray-700  ">
             <IoLocationOutline className="text-orange-600" /> Meadowshire
             ParkGreenField, USA
           </span>
