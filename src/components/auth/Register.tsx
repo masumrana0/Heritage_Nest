@@ -33,7 +33,7 @@ const RegisterForm: React.FC = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 lg:p-6 p-10 bg-white rounded-md shadow-lg shadow-sky-200 ">
+    <div className="w-[36rem] h-auto mx-auto mt-8 lg:p-6 p-10 bg-white rounded-md shadow-lg shadow-sky-200 ">
       <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center">
         Sign Up
       </h2>
@@ -43,7 +43,7 @@ const RegisterForm: React.FC = () => {
           <div>
             <label
               htmlFor="name.firstName"
-              className="block text-sm font-medium text-gray-600"
+              className="block text-sm font-bold   text-gray-600"
             >
               First Name
             </label>
@@ -242,7 +242,12 @@ const RegisterForm: React.FC = () => {
         </div>{" "}
         <div className="mt-6 w-full">
           {/* <Button>Sign Up</Button> */}
-          <button type="submit">Sign Up</button>
+          <button
+            className="bg-orange-500 px-6 py-3 text-white font-bold rounded-lg"
+            type="submit"
+          >
+            Sign Up
+          </button>
         </div>
       </form>
     </div>

@@ -1,8 +1,16 @@
+/**
+ * Title: 'findproperty page define by Masum Rana'
+ * Description: ''
+ * Author: 'Masum Rana'
+ * Date: 03-05-2024
+ *
+*/
+
 import Image from "next/image";
 import React from "react";
 import banner from "/public/assests/propertyDetail/findproperty.jpg";
 import { HiOutlineSearch } from "react-icons/hi";
-import { MdOutlineLocationOn, MdOutlineStarPurple500 } from "react-icons/md";
+import { MdOutlineLocationOn } from "react-icons/md";
 import { TbCoinBitcoin, TbHomeSearch } from "react-icons/tb";
 import { TfiAngleDown } from "react-icons/tfi";
 import Link from "next/link";
@@ -95,9 +103,8 @@ const FindPropertyPage = () => {
         <div className="w-full h-1/2 bg-white"></div>
       </section>
 
-      
       {/* section 2 */}
-      <div className="container mx-auto flex flex-col gap-20 mt-52">
+      <div className="container mx-auto flex flex-col gap-20 my-52">
         <section>
           <Details />
         </section>
@@ -135,6 +142,21 @@ const FindPropertyPage = () => {
           <TestimonialsSection />
         </section>
       </div>
+      <section className="bg-orange-200 w-full p-10 py-20 my-20">
+        <div className="container mx-auto flex justify-between ">
+          <div>
+            <h3 className="text-4xl font-bold">Post your Property for free</h3>
+            <p className="text-lg mt-2 text-gray-600  ">
+              List it on Your propriety and get genuine leads
+            </p>
+          </div>
+          <div>
+            <button className="p-3 px-5 text-xl rounded-lg text-white font-bold bg-orange-500">
+              Post Property
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

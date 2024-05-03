@@ -5,7 +5,6 @@ import { IoLocationOutline } from "react-icons/io5";
 import PropertyAmenities from "@/components/ui/PropertyAmenities";
 import banner1 from "/public/assests/propertyDetail/Frame 134.png";
 import banner2 from "/public/assests/propertyDetail/Frame 135.png";
-import banner3 from "/public/assests/propertyDetail/Frame 137.png";
 import banner4 from "/public/assests/propertyDetail/Frame 138.png";
 
 // icons
@@ -22,7 +21,7 @@ const PropertyDettailPage = () => {
     setValue(e.target.value);
   };
   return (
-    <div className="container mx-auto my-20">
+    <div className="container mx-auto my-20 ">
       {/* section 1 heading */}
       <section>
         <div>

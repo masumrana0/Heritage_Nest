@@ -5,7 +5,7 @@ const PropertyPage = () => {
   const components = [1, 2, 3, 4];
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto py-10">
       {/* buttons */}
       <div className="flex  gap-2   pb-3 ">
         <button className="border px-3 py-1 bg-blue-800 text-white ">
@@ -66,7 +66,6 @@ const PropertyPage = () => {
             ))}
           </div>
         </div>
-        
       </div>
 
       {/* TestMonial */}

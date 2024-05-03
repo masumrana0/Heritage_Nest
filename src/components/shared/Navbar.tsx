@@ -1,3 +1,11 @@
+/**
+ * Title: 'Navbar Created By Masum Rana'
+ * Description: ''
+ * Author: 'Masum Rana'
+ * Date: 03-05-2024
+ *
+ */
+
 import Link from "next/link";
 import React from "react";
 import logo from "/public/logo.png";
@@ -21,7 +29,7 @@ const Navbar = () => {
         </Link>
         <Link
           className="font-semibold text-xl hover:text-blue-700"
-          href="/findproperty"
+          href="/property"
         >
           Services
         </Link>

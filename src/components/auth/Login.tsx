@@ -77,7 +77,9 @@ const LoginForm: React.FC = () => {
         </div>
         <div className="mt-6 w-full">
           <div className="mt-6 w-full">
-            <Button isLoading={isLoading}>login</Button>
+            <button className=" w-full bg-orange-500 px-4 py-2 text-white font-bold rounded-lg">
+              login
+            </button>
           </div>
         </div>
       </form>
@@ -92,7 +94,7 @@ const LoginForm: React.FC = () => {
       <div className="flex justify-center ">
         <button
           onClick={() => dispatch(changeAuthState())}
-          className="text-sm px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-sky-600 transition-colors duration-300 "
+          className="bg-orange-500 px-4 py-2 text-white font-bold rounded-lg"
         >
           Create New Account
         </button>
