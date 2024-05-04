@@ -1,6 +1,7 @@
 # Property Seller Website
 
 This is a property seller website designed to help users buy and sell properties online. It provides a platform for property owners to list their properties for sale and for potential buyers to search for and view available properties.
+[Live Demo](https://heritage-nest-gamma.vercel.app)
 
 ## Features
 
@@ -21,7 +22,5 @@ This is a property seller website designed to help users buy and sell properties
 - **Other Tools**: Git, GitHub, Heroku (for deployment)
 
 
-
- LIve Link["https://heritage-nest-gamma.vercel.app"]
 
  
